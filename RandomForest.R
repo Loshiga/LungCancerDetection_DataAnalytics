@@ -1,6 +1,6 @@
 #install.packages("randomFrorest") 
 library("randomForest")
-cancer <-read.csv("~/Desktop/LosProject/cancer-patient-data-sets.csv")
+cancer <-read.csv("~/Documents/MBD_Subject/MASTER_PROJECT/cancer-patient-data-sets.csv")
 View(cancer)
 #bagging
 library(ipred)
